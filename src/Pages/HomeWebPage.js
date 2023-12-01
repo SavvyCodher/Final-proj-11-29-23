@@ -208,6 +208,11 @@ Dexterity: Because handymen work with their hands, they need to be agile and dex
         </div>
       </div>
     </div>
+              
+<div className="row align-items-center">
+    <Cards />
+</div>
+              
   </div>
     
     
