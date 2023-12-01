@@ -127,10 +127,91 @@ const HomePage = () => {
           </div>
         </div>
       </div>
-</div>
-</div>
+    </div>
+  </div>
 
-        </>
+  <div className="container border border-black">
+    <div className="text-center row fs-2 p-3"><strong>Frequently Asked Questions</strong></div>
+  </div> 
+  <div className="container accordion accordion-flush border" id="questions">            
+    <div className="accordion-item">
+      <h2 className="accordion-header">
+          <button 
+            type="button"
+            className="accordion-button collapsed"  
+            data-bs-toggle="collapse" 
+            data-bs-target="#question-one">
+            <strong> What skills are needed to become an IndyFixer?
+        </strong> </button>
+      </h2>
+    <div id="question-one" 
+          className="accordion-collapse collapse"  
+          data-bs-parent="#accordionFlushExample">
+      <div className="accordion-body">
+      Being a handyman requires both mental and physical skills such as:<br></br> 
+      <br></br>
+      Problem-solving: Handymen often have to think of the solution to a home owner's unique problems.<br></br>
+Creativity: Being creative helps handymen achieve their client's needs in the most efficient and cost-effective way.<br></br>
+Endurance: Many responsibilities of a handyman take several hours, days or weeks, requiring physical stamina and mental endurance.<br></br>
+Dexterity: Because handymen work with their hands, they need to be agile and dexterous when handling fragile materials or dangerous repair tools.<br></br>                          
+      </div>
+    </div>
+  </div>
+        
+  <div className="accordion-item">
+      <h2 className="accordion-header">
+      <button 
+            className="accordion-button collapsed" 
+            type="button" 
+            data-bs-toggle="collapse" 
+            data-bs-target="#question-two">
+            <strong>Question 2
+        </strong> </button>
+      </h2>
+      <div id="question-two" 
+          className="accordion-collapse collapse" 
+          data-bs-parent="#accordionFlushExample">
+        <div className="accordion-body">
+        blah blah blah 2<br></br>
+        </div>
+      </div>
+    </div>              
+  </div>
+
+  <div className="container border border-black">
+    <div className="text-center row fs-2 p-3"><strong>Our Location</strong></div>
+  </div> 
+
+  <div className="container border">
+    <div className="row">
+      <div className="col-3">
+        <img src="https://i.postimg.cc/wBf3kxrr/Final-Logo-2.png" alt="Logo" width={150} height={100} />
+      </div>
+      <div className="col-3">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3062.2573865243558!2d-86.1415655!3d39.86847220000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x886b53aef939947b%3A0xee7f56bdfba88f71!2s6205%20Winthrop%20Ave%2C%20Indianapolis%2C%20IN%2046220!5e0!3m2!1sen!2sus!4v1701025006094!5m2!1sen!2sus"
+          width={540}
+          height={405}
+          style={{ border: 0 }}
+          allowFullScreen=""
+          loading="lazy"
+          referrerPolicy="no-referrer-when-downgrade"
+        />
+      </div>
+      <div className="col-3"></div>
+      <div className="col">
+        <div>
+          <strong>IndyFIXER</strong><br></br>        
+          6205 Winthrop Avenue<br></br>         
+          Indianapolis, IN 46220<br></br>     
+          Phone: 317-255-3030<br></br> 
+        </div>
+      </div>
+    </div>
+  </div>
+    
+    
+    </>
         
     )
 }
